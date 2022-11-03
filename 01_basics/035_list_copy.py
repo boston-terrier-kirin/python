@@ -8,3 +8,11 @@ list_2 = list_1[:]
 list_2[0] = "xx"
 
 print(list_1, list_2)
+print("***************")
+
+# これだと同じPointerになってしまう
+list_3 = list_1
+list_3[0] = "aa"
+
+print(list_3, list_1)
+print("***************")

@@ -4,6 +4,8 @@ print(list)
 # 変数名にlistが使えないわけではない
 list = [1, 2, 3]
 print(list)
+print(len(list))
+print("***************")
 
 # listとarrayは違うらしい
 list_1 = []
@@ -11,13 +13,9 @@ list_1.append("a")
 list_1.append("b")
 list_1.append("c")
 
-print(list_1)
+# slice
 print(list_1[1:])
 print(list_1[-1])
-print("***************")
-
-for item in list_1:
-    print(item)
 print("***************")
 
 list_2 = []
@@ -26,12 +24,18 @@ list_2.append("b")
 list_2.append("c")
 
 # 意外にもこれはTrue
-print(list_1 == list_2)
+print("==", list_1 == list_2)
+# ポインタで比較する場合はisを使う
+print("is", list_1 is list_2)
 print("***************")
 
-# これだと同じPointerになってしまう
-list_3 = list_2
-list_3[0] = "aa"
-
-print(list_2, list_3)
+# insert
+list_1.insert(1, "aa")
+print("insert", list_1)
 print("***************")
+
+# insertは先頭に追加していく場合に使える
+list_1.insert(0, "xx")
+list_1.insert(0, "yy")
+list_1.insert(0, "zz")
+print("insert", list_1)
