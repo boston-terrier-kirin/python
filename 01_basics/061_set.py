@@ -18,3 +18,15 @@ print("***************")
 my_list = [1, 2, 3, 4, 4, 5, 5, 3]
 unique = set(my_list)
 print(unique)
+print("***************")
+
+# これはできない
+# TypeError: 'set' object is not subscriptable
+# print(my_set[2])
+# indexを使いたい場合は、listにcastすればOK
+print(list(my_set)[2])
+print("***************")
+
+# これはできる
+for item in my_set:
+    print(item)
