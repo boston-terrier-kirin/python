@@ -1,0 +1,2 @@
+A File Object or an object that supports the standard read and seek methods similar to a File Object.
+Could also be a string representing a path to a PDF file.
