@@ -1,13 +1,13 @@
 import sys
 import random as rand
 
-args = sys.argv[1:]
-
-if len(args) != 2:
+if len(sys.argv) != 3:
     print("Invalid args")
+    exit()
 
-guess_from = sys.argv[1]
-guess_to = sys.argv[2]
+args = sys.argv[1:]
+guess_from = args[0]
+guess_to = args[1]
 
 if not guess_from.isdecimal():
     print("Invalid from number")
