@@ -7,7 +7,8 @@ def performance(fn):
         result = fn(*args, **kwargs)
         end = time()
 
-        print(f"it took: {end - start} sec")
+        print(f"params: {args} {kwargs}")
+        print(f"{fn.__name__} took: {end - start} sec")
 
         return result
 

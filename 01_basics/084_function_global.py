@@ -24,3 +24,12 @@ def counter2():
 
 print(counter2())
 print(counter2())
+print("***************")
+
+animal = "cat"
+
+def print_animal():
+    # print(animal) # animalはローカル変数扱いなので、ここでエラーになる
+    animal = "dog"  # ↑ ここでanimalをローカル変数として使おうとしている
+
+print_animal()
