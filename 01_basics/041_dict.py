@@ -30,15 +30,25 @@ print("***************")
 myDic2 = myDic.copy()
 myDic2["c"] = 3
 print(myDic, myDic2)
+print("***************")
 
+# update
 user = {
     "first_name": "John",
     "last_name": "Doe",
     "age": 20
 }
-
-# update
 user.update({"age": 55})
+print("update", user)
+print("***************")
+
+# updateというか、mergeに近いことができる
+user_attr = {
+    "address": "Boston, MA",
+    "hobby": " Basketball"
+}
+
+user.update(user_attr)
 print("update", user)
 print("***************")
 

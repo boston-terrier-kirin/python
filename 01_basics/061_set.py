@@ -20,7 +20,7 @@ unique = set(my_list)
 print(unique)
 print("***************")
 
-# これはできない
+# これはできない。集合には順番の概念がないので。
 # TypeError: 'set' object is not subscriptable
 # print(my_set[2])
 # indexを使いたい場合は、listにcastすればOK

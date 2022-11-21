@@ -15,4 +15,5 @@ list_3 = list_1
 list_3[0] = "aa"
 
 print(list_3, list_1)
+print(id(list_3), id(list_1))
 print("***************")

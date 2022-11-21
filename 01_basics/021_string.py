@@ -52,6 +52,28 @@ lorem = """Lorem Ipsum is simply dummy text of the printing and typesetting indu
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
 when an unknown printer took a galley of type and scrambled it to make a type specimen book."""
 print("->",lorem)
+print("*************************************")
+
+# """ + \
+lorem = """\
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+when an unknown printer took a galley of type and scrambled it to make a type specimen book.\
+"""
+print("->",lorem)
+print("*************************************")
+
+# \ だけだと改行はされない
+lorem = "Lorem Ipsum is simply dummy text of the printing and typesetting industry." \
+        "Lorem Ipsum has been the industry's"
+print("->",lorem)
+print("*************************************")
+
+# () でもOK
+lorem = ("Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        "Lorem Ipsum has been the industry's")
+print("->",lorem)
+print("*************************************")
 
 # escapeしなくても良い
 print("""O'NEILL""")
