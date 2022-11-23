@@ -1,0 +1,4 @@
+
+('john_doe@test.com', 'test', 'dddddddddddddddd')
+('kohei.matsumoto@gmail.com', '66666666666', '6666666666')
+kohei.matsumoto@gmail.com,ddddddddddddddd,dddddddddd
