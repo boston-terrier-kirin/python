@@ -23,12 +23,6 @@ list_2.append("a")
 list_2.append("b")
 list_2.append("c")
 
-# 意外にもこれはTrue
-print("==", list_1 == list_2)
-# ポインタで比較する場合はisを使う
-print("is", list_1 is list_2)
-print("***************")
-
 # insert
 list_1.insert(1, "aa")
 print("insert", list_1)
