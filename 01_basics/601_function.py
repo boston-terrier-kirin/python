@@ -2,6 +2,7 @@ def get_total(price, qty=1, tax=0.1, discount=0):
     subtotal = price * qty * (1 - discount)
     print(subtotal * (1 + tax))
 
+
 get_total(100)
 
 # named parameter

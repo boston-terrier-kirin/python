@@ -12,9 +12,6 @@ print("*************************************")
 print(first_name * 10)
 print("*************************************")
 
-print(first_name[0])
-print("*************************************")
-
 length = len(last_name)
 print(last_name[length-1])
 # これでもOK
@@ -25,20 +22,6 @@ print("*************************************")
 user = None
 print(user)
 print(type(user))
-print("*************************************")
-
-# slice
-# 012345678
-# Matsumoto
-print(last_name[0:2])
-print(last_name[2:5])
-print(last_name[2:])
-print(last_name[0:5])
-print(last_name[:5])
-print("*************************************")
-
-woid = "KSB123456789"
-print(woid[3:])
 print("*************************************")
 
 # escape
