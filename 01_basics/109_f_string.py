@@ -1,4 +1,4 @@
-# f-stringはpython3からできた新しい機能。もとは、formatを使っていた。
+# f-stringはpython3.6からできた新しい機能。もとは、formatを使っていた。
 first_name = "Kuroro"
 last_name = "Matsumoto"
 age = 2

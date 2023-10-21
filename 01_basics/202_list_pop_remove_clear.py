@@ -1,35 +1,25 @@
-list_1 = []
-list_1.append("a")
-list_1.append("b")
-list_1.append("c")
+list_1 = ["a", "b", "c"]
 
-# pop
+## popは元の配列をmutateする
 # 一番後ろから削除。後ろから順に削除しながら処理する場合に使える
 while len(list_1) > 0:
     # popした値はreturnされる
     print("pop", list_1.pop())
 
+# list_1は空になっている
 print(list_1)
 print("***************")
 
-# pop(index)
-list_1 = []
-list_1.append("a")
-list_1.append("b")
-list_1.append("c")
+## pop(index)
+list_1 = ["a", "b", "c"]
 
 # index指定でpopできる
 list_1.pop(1)
 print(list_1)
 print("***************")
 
-# remove
-list_2 = []
-list_2.append("a")
-list_2.append("b")
-list_2.append("c")
-list_2.append("a")
-list_2.append("a")
+## remove
+list_2 = ["a", "b", "c", "a", "a"]
 
 print(list_2)
 
@@ -38,6 +28,6 @@ list_2.remove("a")
 print("remove", list_2)
 print("***************")
 
-# clear
+## clear
 list_2.clear()
 print("clear", list_2)
