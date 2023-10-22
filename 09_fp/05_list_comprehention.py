@@ -5,3 +5,6 @@ print(my_list)
 
 my_list2 = [num * 2 for num in numbers if num % 2 == 0]
 print(my_list2)
+
+my_list3 = [l for l in "Kuroro"]
+print(my_list3)
