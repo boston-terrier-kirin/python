@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="26bbdc5f-4cea-4ddd-a8c0-d77599541f84" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../91_todo_app/01_cmd/todos.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/001_numbers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/002_input.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/003_truthy_falsey.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/004_ternay.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/005_is_vs_==.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/006_is_none.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/007_iterable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/007_range.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/008_enumerate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/009_lambda.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/010_sorted.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/011_id.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/012_map_lambda.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/013_filter_lambda.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/101_string.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/102_str_strip.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/103_str_replace.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/104_str_join.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/105_str_split.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/106_str_in.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/107_str_copy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/108_str_format.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/109_f_string.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/110_str_slice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/201_list_append_slice_insert.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/202_list_pop_remove_clear.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/203_list_unpacking_concat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/204_list_extend.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/205_list_copy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/206_list_deepcopy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/207_list_operators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/208_list_range.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/209_list_count_sort_reverse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/211_list_sort_reverse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/212_list_zip.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/213_list_in.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/301_dict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/302_dict_loop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/303_dict_json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/401_tuple.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/402_tuple_unpacking.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/403_tuple_count_index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/501_set.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/502_set_difference_intersection_union.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/503_set.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/601_function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/602_function_args.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/603_function_kwargs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/604_function_global.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/605_function_nonlocal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/606_function_mutable_default_arg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/701_file_io.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/801_regex.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_basics/Python_Cheatsheet_Zero_To_Mastery_V1.05.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-2_modules/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-2_modules/util/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-2_modules/util/divide.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-2_modules/util/multiply.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-3_modules/my_package/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-3_modules/my_package/some_main_script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-3_modules/my_package/sub_package/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-3_modules/my_package/sub_package/some_sub_script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-3_modules/mymodule.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-3_modules/myprogram.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_modules/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_modules/shopping/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_modules/shopping/cart.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_modules/util/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_guess_number/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../93_guess_number/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_collections/defaultdict.py" beforeDir="false" afterPath="$PROJECT_DIR$/../05_collections/02_defaultdict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07_array/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../07_array/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13_image_processing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13_image_processing/images.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13_image_processing/jpg_to_png_converter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13_image_processing/pokedex/astro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13_image_processing/pokedex/bulbasaur.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13_image_processing/pokedex/charmander.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13_image_processing/pokedex/pikachu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13_image_processing/pokedex/squirtle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../91_todo_app/01_cmd/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../91_todo_app/01_cmd/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2XQ0Et7UxdnC5Q1YCSz2L1vangk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="002_modules" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01_modules" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01_modules/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26bbdc5f-4cea-4ddd-a8c0-d77599541f84" name="Changes" comment="" />
+      <created>1698545888132</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698545888132</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
