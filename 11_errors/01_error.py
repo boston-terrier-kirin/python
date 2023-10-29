@@ -5,4 +5,8 @@ try:
 
 # Exceptionを指定しないのもあり
 except:
-    print("please enter a number")
+    print("please enter a valid number")
+else:
+    print(age)
+finally:
+    print("try again")
