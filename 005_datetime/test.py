@@ -1,14 +1,21 @@
 # https://docs.python.org/3.11/library/datetime.html
-from time import time
 import datetime
 from datetime import date
+from time import time
 
 st = time()
 
 print(datetime.time(7, 54, 30))
 print(datetime.date.today())
+print("*****")
 
-print(date.today())
+today = date.today()
+print(type(today))
+print(today)
+print(today.year)
+print(today.month)
+print(today.day)
+print("*****")
 
 en = time()
 print(en - st)

@@ -1,6 +1,5 @@
 ##　関数バージョン
 def multiply(item):
-    print(item)
     return item * 2
 
 
