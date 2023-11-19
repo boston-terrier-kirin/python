@@ -8,6 +8,7 @@ def get_total(**kwargs):
     
     print(sum)
 
+
 get_total(a=1, b=2, c=3)
 
 # これはエラー

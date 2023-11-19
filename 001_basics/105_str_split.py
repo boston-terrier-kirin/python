@@ -1,8 +1,8 @@
-name = "kohei matsumoto"
+name = "kohei    matsumoto"
 
 # jsのsplitとはちょっと違う
 print(name.split(" "))
-print(name.split()) # " " と同じ
+print(name.split()) # " " と違い、間のスペースを無視してくれる
 print("*************************************")
 
 # これはできない

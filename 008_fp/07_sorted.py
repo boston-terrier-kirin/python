@@ -5,8 +5,21 @@ print("mutable", nums)
 
 # sortedの場合
 nums = [4, 1, 3, 6, 5, 2]
-sorted(nums)
-print("immutable", nums)
+sorted_nums = sorted(nums)
+print("immutable", nums, sorted_nums)
+
+# reverse
+nums = [4, 1, 3, 6, 5, 2]
+reversed_nums = sorted(nums, reverse=True)
+print("reverse", nums, reversed_nums)
+
+# reversed はiteratorを返す
+nums = [4, 1, 3, 6, 5, 2]
+reversed_nums = reversed(nums)
+print("reversed", nums, reversed_nums)
+
+word = "abcde"
+print("reversed", "".join(reversed(word)))
 
 # tuple1のソート
 ts = (4, 1, 3, 6, 5, 2)
