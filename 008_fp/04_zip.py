@@ -17,3 +17,23 @@ drinks = ["Coffe", "Tea", "Beer"]
 
 for day, fruit, drink in zip(days, fruits, drinks):
     print(day, fruit, drink)
+
+# dict comprehensionと組み合わせて使う
+midterms = [80, 91, 78]
+finals = [98, 89, 53]
+students = ["dan", "ang", "kate"]
+
+# {'dan': 98, 'ang': 91, 'kate': 78}
+students_grade = {grade[0]: max(grade[1], grade[2]) for grade in zip(students, midterms, finals)}
+print(students_grade)
+
+# mapでもできる
+students_grade = zip(students,
+                     map(lambda pairs: max(pairs), zip(midterms, finals)))
+print(dict(students_grade))
+
+# zipはdictに変換できる
+dogs = ["kirin", "kuroro"]
+ages = [15, 3]
+dogs_ages = dict(zip(dogs, ages))
+print(dogs_ages)
