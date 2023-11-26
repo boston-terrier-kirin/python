@@ -1,9 +1,9 @@
 def zoo():
     animal = "Harle"
-    print("INSIDE zoo FUC", animal)
+    print("INSIDE zoo FUNC", animal)
 
     def inner():
-        print("INSIDE inner FUC", animal)
+        print("INSIDE inner FUNC", animal)
 
     inner()
 
@@ -11,15 +11,10 @@ def zoo():
 zoo()
 
 # これはもちろんエラー
-# print("OUTSIDE zoo FUC", animal)
+# print("OUTSIDE zoo FUNC", animal)
 
 # これはできる
 if True:
     animal = "Osprey"
 
 print("AFTER IF", animal)
-
-for char in "OCTOPUS":
-    pass
-
-print("AFTER for", char)

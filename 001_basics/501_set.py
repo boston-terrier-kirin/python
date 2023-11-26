@@ -30,3 +30,7 @@ print("***************")
 # これはできる
 for item in my_set:
     print(item)
+
+# setは順番が保証されていない
+s = {"p", "y", "t", "h", "o", "n"}
+print(s)

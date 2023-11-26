@@ -4,4 +4,4 @@ def interleave(s1, s2):
 
 print(interleave("hi", "ha"))
 print(interleave('aaa', 'zzz'))
-print(interleave('lzr','iad'))
+print(interleave('lzr', 'iad'))

@@ -1,4 +1,4 @@
-# extendは、[...list_1, ...list_2] 相当
+# extendは、list_1自体がmutateされる
 list_1 = ["a", "b", "c"]
 
 list_2 = ["あ", "い", "う"]

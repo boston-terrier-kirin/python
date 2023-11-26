@@ -11,6 +11,7 @@ def outer():
         animal = "bird"
         print("inner: ", animal)
 
+    print("outer(before): ", animal)
     inner()
     print("outer: ", animal)
 
