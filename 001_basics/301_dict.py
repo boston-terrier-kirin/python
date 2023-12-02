@@ -18,6 +18,7 @@ print(myDic.get("c"))
 print("***************")
 
 # デフォルトも設定できる
+# jsの、myMap.get("c") || "" ができる
 print(myDic.get("c", ""))
 print("***************")
 

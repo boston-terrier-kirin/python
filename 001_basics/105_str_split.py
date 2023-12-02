@@ -1,8 +1,8 @@
 name = "kohei    matsumoto"
 
 # jsのsplitとはちょっと違う
-print(name.split(" "))
-print(name.split()) # " " と違い、間のスペースを無視してくれる
+# ['kohei', '', '', '', 'matsumoto']
+print("name.split(' ')", name.split(" "))
 print("*************************************")
 
 # これはできない
@@ -10,7 +10,17 @@ print("*************************************")
 # print(name.split(""))
 
 # name.split("")がやりたい場合は、list(name)で配列になる
-print(list(name))
+# ['k', 'o', 'h', 'e', 'i', ' ', ' ', ' ', ' ', 'm', 'a', 't', 's', 'u', 'm', 'o', 't', 'o']
+print("list(name)", list(name))
+print("*************************************")
+
+# list comprehensionで空白をのぞく
+print("list comprehension", [char for char in list(name) if char != ' '])
+print("*************************************")
+
+# 間にあるスペースを無視する場合、name.split()
+# ['kohei', 'matsumoto']
+print("name.split()", name.split())
 print("*************************************")
 
 # str自体が最初からiterableなので、1文字づつ処理したい場合はforを使う

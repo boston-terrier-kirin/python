@@ -1,16 +1,14 @@
-import random
+players = {}
+players["stephen"] = 30
+players["clay"] = 11
+players["draymond"] = 23
 
-names = ["Alex", "Beth", "Caroline", "Dave", "Eleanor", "Freddie"]
+print("***** dict items")
+for k, v in players.items():
+    print(k, v)
 
-# iterableであれ何でも良いので、listをもとにdictすることも可能
-students_score = {name: random.randint(1, 100) for name in names}
-print(students_score)
+print("***** dict comprehension")
+# new_dict = {new_key:new_value for (key, value) in dict.items() if test}
+my_dict = {k.upper(): v * 2 for k, v in players.items()}
 
-print("*****")
-passed_students = {name: score for (name, score) in students_score.items() if score > 75}
-print(passed_students)
-
-print("*****")
-sentence = "What is the Airspeed Velocity of an Unladen Swallow?"
-result = {word: len(word) for word in sentence.split()}
-print(result)
+print(my_dict)
