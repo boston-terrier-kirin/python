@@ -20,4 +20,4 @@ print(a(10))
 print(a(20))
 print(a(30))
 
-print(b.__closure__)
+print(a.__closure__)

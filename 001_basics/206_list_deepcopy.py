@@ -1,35 +1,24 @@
-duos = [
-    ["Steph", "Clay"],
-    ["AD", "Lebron"]
-]
-duos2 = duos[:]
+# copyはshallow copyになっている
+l_original = [[1, 2, 3], 4, 5]
+l_copy = l_original.copy()
 
-# : はshallow copyなので、ネストした配列は同じポインタになっている。
-print("id", id(duos), id(duos2))
-print("id", id(duos[0]), id(duos2[0]))
+# l_originalとl_copyは違うアドレスになっている
+print(id(l_original), id(l_copy))
 
-# これはduosのみ変わる
-duos.append(["Tatum", "Brown"])
-print(duos, "---", duos2)
+# l_original[0]とl_copy[0]は同じアドレスになっている
+print(id(l_original[0]), id(l_copy[0]))
+print("*****")
 
-# [0]に追加すれば、duos2に追加されてしまう。
-duos[0].append("Draymond")
-print(duos, "---", duos2)
-print("***************")
 
-# cppy
+# copy
 import copy
-duos = [
-    ["Steph", "Clay"],
-    ["AD", "Lebron"]
-]
-duos2 = copy.deepcopy(duos)
 
-print("id", id(duos), id(duos2))
-print("id", id(duos[0]), id(duos2[0]))
+l_original = [[1, 2, 3], 4, 5]
+l_copy = copy.deepcopy(l_original)
 
-duos.append(["Tatum", "Brown"])
-print(duos, "---", duos2)
+# l_originalとl_copyは違うアドレスになっている
+print(id(l_original), id(l_copy))
 
-duos[0].append("Draymond")
-print(duos, "---", duos2)
+# l_original[0]とl_copy[0]も違うアドレスになっている
+print(id(l_original[0]), id(l_copy[0]))
+print("*****")

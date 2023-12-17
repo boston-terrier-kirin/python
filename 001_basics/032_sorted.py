@@ -17,3 +17,7 @@ ranks = [
 
 print(sorted(ranks, reverse=True, key=lambda d: d["point"]))
 print("*************************************")
+
+l = ["c", "B", "D", "a"]
+result = sorted(l, key=lambda item: item.upper())
+print(result)

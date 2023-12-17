@@ -2,7 +2,7 @@ from functools import reduce
 
 numbers = [1, 2, 3, 4, 5]
 
-##　関数バージョン
+## 関数バージョン
 def sum(acc, item):
     return acc + item
 

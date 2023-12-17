@@ -1,16 +1,16 @@
-list_1 = []
-list_1.append("a")
-list_1.append("b")
-list_1.append("c")
+list_1 = ["a", "b", "c"]
 
 # 配列のコピーはこれ
 list_2 = list_1[:]
-list_2[0] = "xx"
 
+# 違うアドレスになる
+print(id(list_1), id(list_2))
+
+list_2[0] = "xx"
 print(list_1, list_2)
 print("***************")
 
-# これだと同じPointerになってしまう
+# これだと同じアドレスになってしまう
 list_3 = list_1
 list_3[0] = "aa"
 

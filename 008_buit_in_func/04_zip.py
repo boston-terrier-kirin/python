@@ -5,7 +5,8 @@ result = zip(list_1, list_2)
 my_list = list(result)
 print(my_list)
 
-# 残念ながらこれは上手くいかない
+# 残念ながらこれは上手くいかない -> zipはgeneratorを返すので2回目はなにも表示されない。zipを作り直せばdictに変換できる
+result = zip(list_1, list_2)
 my_dict = dict(result)
 print(my_dict)
 print("*************************************")
@@ -19,9 +20,9 @@ for day, fruit, drink in zip(days, fruits, drinks):
     print(day, fruit, drink)
 
 # dict comprehensionと組み合わせて使う
+students = ["dan", "ang", "kate"]
 midterms = [80, 91, 78]
 finals = [98, 89, 53]
-students = ["dan", "ang", "kate"]
 
 # {'dan': 98, 'ang': 91, 'kate': 78}
 students_grade = {grade[0]: max(grade[1], grade[2]) for grade in zip(students, midterms, finals)}

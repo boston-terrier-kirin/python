@@ -1,4 +1,4 @@
-##　関数バージョン
+## 関数バージョン
 def even(item):
     return item % 2 == 0
 

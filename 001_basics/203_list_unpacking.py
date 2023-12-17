@@ -28,8 +28,3 @@ list_3 = [*list_1, *list_2]
 print(list_3)
 print(len(list_3))
 print("*************************************")
-
-# concatでも...相当ができる
-list_a = [1, 2, 3]
-list_b = ["a", "b", "c"]
-print(list_a + list_b)

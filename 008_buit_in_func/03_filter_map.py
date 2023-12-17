@@ -8,7 +8,7 @@ users = [
 
 # filter -> map バージョン
 inactive_users_1 = list(map(lambda u: u["username"],
-                          filter(lambda u: not u["tweets"], users)))
+                        filter(lambda u: not u["tweets"], users)))
 print(inactive_users_1)
 
 # list comprehension バージョン
