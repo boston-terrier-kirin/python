@@ -8,6 +8,7 @@ print("[2:5]", last_name[2:5])
 print("[2: ]", last_name[2:])
 print("[0:5]", last_name[0:5])
 print("[ :5]", last_name[:5])
+print("[ -1]", last_name[-1])
 print("*************************************")
 
 # last_name[start:end:step_size]
