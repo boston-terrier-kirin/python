@@ -6,7 +6,7 @@ class DatabaseConnection:
         self.host = host
         self.conn = None
 
-    def __enter__(self):
+    def __enter__(self) -> sqlite3.Connection:
         self.conn = sqlite3.connect(self.host)
         return self.conn
 

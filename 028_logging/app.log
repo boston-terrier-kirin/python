@@ -1,0 +1,4 @@
+2024-03-17 13:50:33,609 INFO     [main.py:6] This is info message
+2024-03-17 13:50:33,609 WARNING  [main.py:7] This is warning message
+2024-03-17 13:53:58,335 INFO     [main.py:8] This is info message
+2024-03-17 13:53:58,335 WARNING  [main.py:9] This is warning message
