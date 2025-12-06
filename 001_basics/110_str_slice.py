@@ -24,3 +24,13 @@ print("*************************************")
 woid = "KSB123456789"
 print(woid[3:])
 print("*************************************")
+
+#          012345678901234
+my_name = "Kohei Matsumoto"
+index_of_space = my_name.index(" ")
+print("index_of_space", index_of_space)
+
+first_name = my_name[0:index_of_space]
+print(first_name)
+last_name = my_name[index_of_space + 1:]
+print(last_name)

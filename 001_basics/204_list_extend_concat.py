@@ -3,6 +3,7 @@ list_1 = ["a", "b", "c"]
 print(id(list_1))
 
 list_1.extend(["あ", "い", "う"])
+list_1.extend("python")
 print("*****")
 
 print(list_1)

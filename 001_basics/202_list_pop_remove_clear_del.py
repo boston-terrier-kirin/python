@@ -31,3 +31,8 @@ print("***************")
 ## clear
 list_2.clear()
 print("clear", list_2)
+
+## del
+list_3 = ["a", "b", "c", "d", "e"]
+del list_3[0:2]
+print("del", list_3)

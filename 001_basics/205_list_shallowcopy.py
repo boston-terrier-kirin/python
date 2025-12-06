@@ -1,4 +1,4 @@
-list_1 = ["a", "b", "c"]
+list_1 = [["a", "aa"], "b", "c"]
 
 # 配列のコピーはこれ
 list_2 = list_1[:]
@@ -6,7 +6,8 @@ list_2 = list_1[:]
 # 違うアドレスになる
 print(id(list_1), id(list_2))
 
-list_2[0] = "xx"
+# 違うアドレスにはなるが、shallow copyになっているので、list_2の変更は、list_1にも反映される
+list_2[0][1] = "xx"
 print(list_1, list_2)
 print("***************")
 
